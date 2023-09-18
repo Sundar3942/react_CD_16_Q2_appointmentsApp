@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.page {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.content-container {
+  width: 90%;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+.upper-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.label {
+  color: #9796f0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.title-input {
+  outline: none;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.date-input {
+  outline: none;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.btn {
+  background-color: #8b5cf6;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.appointments-image {
+  width: 300px;
+}
+.appointment-star-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.starred-button {
+  color: #9796f0;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+  outline: none;
+  border: 1px solid #9796f0;
+  cursor: pointer;
+  background-color: transparent;
+}
+.appointments-container {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+}

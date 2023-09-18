@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.appointment-item {
+  border: 1px solid #9796f0;
+  border-radius: 10px;
+  padding: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 30%;
+}
+.star-btn {
+  width: 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.d-row-separated {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment-para {
+  color: #9796f0;
+}
